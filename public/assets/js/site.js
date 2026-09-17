@@ -200,7 +200,7 @@ window.dataLayer = window.dataLayer || [];
 document.addEventListener("click", (e) => {
   const callLink = e.target.closest('a[href^="tel:"]');
   if (callLink) {
-    window.dataLayer.push({ event: "call_click", phone_number: "(888) 608-5436" });
+    window.dataLayer.push({ event: "call_click", phone_number: "(833) 457-4435" });
   }
 });
 
